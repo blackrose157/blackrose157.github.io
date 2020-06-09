@@ -7,10 +7,5 @@ $to = "gm@info-tk.com";
   $message .= "Website : " . $_POST['Website'] . "\n";
   $message .= "Message : " . "\r\n". $_POST['message'] ;
 mail($to, $subject, $message);
-echo "<script>
-window.location.href='contact.html';
-alert('Your message successfully sent');
-</script>";
-
 
 ?>
