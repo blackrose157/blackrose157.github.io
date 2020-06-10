@@ -27,6 +27,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
+<body>
 <div class="page-wrapper">
     <!-- Preloader -->
     <div class="preloader"></div>
@@ -398,7 +399,7 @@
                 </div>
 
                 <div class="contact-form dark">
-                    <form method="post" action="contactform/feedback.php" id="contact-form">
+                    <form action="contactform/feedback.php" method="post" id="contact-form">
                         <div class="row">
                             <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                 <input type="text" name="username" placeholder="Your name" required="">
@@ -436,19 +437,8 @@
     <section class="contact-map-section">
         <div class="map-outer">
           
-            <!-- First Branch-->
-            <div class="map-canvas"
-                 src="js/map-script.js"
-                data-zoom="8"
-                data-lat="31.1977585"
-                data-lng="29.887203099999965"
-                data-type="roadmap"
-                data-hue="#ffc400"
-                data-title="ALSAD ALAALY CO"
-                data-icon-path="images/icons/map-marker.png"
-                data-content="22 Al Nasr Street –El-Mansheya Alexandria,Egypt<br><a href='mailto:info@alsadalaaly.com'>info@alsadalaaly.com</a></a>">
-            </div>
-           
+            <iframe class="map-canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1NSpGzhA1elXEXvVW1s8V66Y-FHPUigFd"></iframe>
+            
                     
         </div>
     </section>
@@ -464,14 +454,12 @@
                     <div class="footer-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                         <div class="footer-widget about-widget">
                             <div class="footer-logo">
-                                <figure class="image"><a href="index-2.html"><img src="images/footer-logo.png" alt=""></a></figure>
+                                <figure class="image"><a href="#"><img src="images/footer-logo.png" alt="ALSAD ALAALY CO."></a></figure>
                             </div>
                             <div class="widget-content">
-                                <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam.quis nostrud exercitation ullam aboris nisi aliquip exea commodo consequat duis aute irure dolor in reprehenderit.</div>
+                                <div class="text">We offer a full port agency service, designed to ensure that your ships can enter and leave port as quickly and efficiently as possible without incurring unnecessary delays and unwelcome additional costs.We have been offering professional shipping agency services and unrivaled Experience in providing a complete range port agency. &shy;<a href="#"> read more</a></div>
                                 <ul class="social-icon-colored">
-                                    <li class="google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                     <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="dribbble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
                                     <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 </ul>
                                 
@@ -483,11 +471,11 @@
                             <h2 class="widget-title">Quick links</h2>
                             <div class="widget-content">
                                 <ul class="list">
-                                    <li><a href="#">Company History</a></li>
+                                    <li><a href="#">Home</a></li>
                                     <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Contact Us</a></li>
                                     <li><a href="#">Services</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">عن الشركة</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -497,11 +485,13 @@
                         <div class="footer-widget contact-widget">
                             <h2 class="widget-title">Contact Info</h2>
                             <div class="widget-content">
-                                <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed do tempor.</div>
+                                <div class="text">Alexandria (Head Office):</div>
                                 <ul class="contact-list">
-                                    <li>Flat 20, Reynolds Neck, North Hele naville, FV77 8WS</li>
-                                    <li><a href="tel:+2(305)5873407">+2(305) 587-3407</a></li>
-                                    <li><a href="mailto:info@industrez.com">info@industrez.com</a></li>
+                                    <li>22 Al Nasr Street –El-Mansheya Alexandria, Egypt</li>
+                                    <li><a href="Tel:+2(03)4852220">Tel: +2(03) 48 52 220</a></li>
+								    <li><a href="Fax:+2(03)4852240">Fax: +2(03) 48 52 240</a></li>
+
+                                    <li><a href="mailto:agency@hdam-shipping.com">agency@hdam-shipping.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -515,14 +505,9 @@
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="bottom-column col-md-6 col-sm-12">
-                        <div class="copyright-text"><a href="#">Industrez</a> &copy; 2019 All Right Reserved</div>
+                        <div class="copyright-text"><a href="http://info-tk.com">infoTK for I.T. Solutions</a> &copy; 2020 All Right Reserved</div>
                     </div>
-                    <div class="bottom-column col-md-6 col-sm-12">
-                        <ul class="footer-links clearfix">
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
+                   
                 </div>
                 
                 <!--Scroll to top-->
@@ -537,6 +522,7 @@
 </div>  
 <!--End pagewrapper-->
 
+
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -548,11 +534,8 @@
 <script src="js/appear.js"></script>
 <script src="js/validate.js"></script>
 <script src="js/script.js"></script>
-<!--Google Map APi Key-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcaOOcFcQ0hoTqANKZYz-0ii-J0aUoHjk"></script>
-<script src="js/map-script.js"></script>
-<!--End Google Map APi-->
+
 </body>
 
-<!-- Mirrored from t.commonsupport.xyz/industrez/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 May 2020 20:25:48 GMT -->
+<!-- copyright reserved: infoTK for I.T. Solutions || www.info-tk.com || Wed, 13 May 2020 20:09:11 GMT -->
 </html>

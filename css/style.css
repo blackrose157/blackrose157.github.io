@@ -7718,7 +7718,7 @@ img{
 	position: relative;
 	background-color: #ffffff;
 	padding: 95px 100px 80px;
-	margin-bottom: -120px;
+	margin-bottom: 0px;
 	z-index: 2;
 }
 
